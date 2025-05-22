@@ -55,25 +55,30 @@ function TodoForm() {
     <>
       <section className="mt-3">
         <form>
-          <div className="flex justify-center">
+          <div className="flex flex-col justify-center items-center gap-2">
             <input
               type="text"
               placeholder="Enter title"
               onChange={(e) => setTitle(e.target.value)}
+              className="border px-2 py-1 rounded"
             />
             <input
               type="text"
               placeholder="Enter Description"
               onChange={(e) => setDescription(e.target.value)}
+              className="border px-2 py-1 rounded"
             />
 
-            <button onClick={handleSubmit}>
+            <button
+              onClick={handleSubmit}
+              className="mt-2 bg-blue-500 text-white px-3 py-1 rounded flex items-center gap-1"
+            >
               <HiOutlinePlus className="inline mb-1" />
               <span>Add</span>
             </button>
           </div>
 
-          <div className="text-green-500 flex justify-center">{msg}</div>
+          <div className="text-green-500 flex justify-center mt-2">{msg}</div>
         </form>
       </section>
     </>
