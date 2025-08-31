@@ -1,8 +1,13 @@
-# React + Vite
+This is Simple Todo Api for handling API Calls.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Here, Hitesh Chaudhary API is used
 
-Currently, two official plugins are available:
+Here Tailwindcss verion 3 is used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+What I Learn
+
+422 status code
+
+Title- UNPROCESSABLE ENTITY
+
+Description: The field with value are must but not provided .
